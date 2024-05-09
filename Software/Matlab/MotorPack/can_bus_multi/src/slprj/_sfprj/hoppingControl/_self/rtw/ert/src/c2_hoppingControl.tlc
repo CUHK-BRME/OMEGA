@@ -1,0 +1,79 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   8 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "lastOrientTime"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "hoppingControl:525:332-346"\
+    }\
+    ChartData {\
+      Name         "lastViconQuat"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "hoppingControl:525:414-427"\
+    }\
+    ChartData {\
+      Name         "lastVel"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "hoppingControl:525:2312-2319"\
+      Dimensions   [3]\
+    }\
+    ChartData {\
+      Name         "lastViconVel"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "hoppingControl:525:2379-2391"\
+      Dimensions   [3]\
+    }\
+    ChartData {\
+      Name         "lastPos"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "hoppingControl:525:2461-2468"\
+      Dimensions   [3]\
+    }\
+    ChartData {\
+      Name         "lastViconVel2"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "hoppingControl:525:2528-2541"\
+      Dimensions   [3]\
+    }\
+    ChartData {\
+      Name         "lastPos2"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "hoppingControl:525:2613-2621"\
+      Dimensions   [3]\
+    }\
+    ChartData {\
+      Name         "lastVelTime"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "hoppingControl:525:2683-2694"\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

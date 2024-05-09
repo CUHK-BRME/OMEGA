@@ -1,0 +1,67 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   7 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "state"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "hoppingControl:1036:443-448"\
+    }\
+    ChartData {\
+      Name         "state_safety"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "hoppingControl:1036:498-510"\
+    }\
+    ChartData {\
+      Name         "lastFlip"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "hoppingControl:1036:574-582"\
+    }\
+    ChartData {\
+      Name         "afterFlip"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "hoppingControl:1036:639-648"\
+    }\
+    ChartData {\
+      Name         "time"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "hoppingControl:1036:707-711"\
+    }\
+    ChartData {\
+      Name         "time_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "hoppingControl:1036:707-711"\
+    }\
+    ChartData {\
+      Name         "wing_Override"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "hoppingControl:1036:762-775"\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
