@@ -10,7 +10,7 @@
        -MATLAB Coder
        -Simulink Coder
        -Signal Processing Toolbox
-       -RaspberryPi Support Package for Simulink
+       -Simulink Support Package for Raspberry Pi Hardware
        -MATLAB Support for MinGW-w64 C/C++/Fortran Compiler (for compile s-function builder)
      Set Path for Custom Files:
        -can_bus_multi
