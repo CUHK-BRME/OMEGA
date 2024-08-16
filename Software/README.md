@@ -1,7 +1,7 @@
 # Software Instruction
 
 1. Environment Setup
-  -Matlab 2018b
+  -Matlab 2018b (set to always open as admin)
      AddOns:
        -DSP System Toolbox
        -Embedded Coder
