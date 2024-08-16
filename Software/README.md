@@ -10,6 +10,8 @@
        -MATLAB Coder
        -Simulink Coder
        -Signal Processing Toolbox
+       -Simscape
+       -Simscape Electrical
      AddOns needed after installing Matlab (need non institute network):
        -Simulink Support Package for Raspberry Pi Hardware
        -MATLAB Support for MinGW-w64 C/C++/Fortran Compiler (for compile s-function builder)
