@@ -4,9 +4,9 @@
 
 ## Features:
 - **Multi-mode hopping**: 1D, 2D, and 3D modes
-- **Omnidirectional 3-RSR parallel leg**
+- **3-RSR parallel leg**: Omnidirectional movement and force output
 - **Accessible manufacturing**: 3D printing, water-jet cutting
-- **Simulator**: For control learning and experiments
+- **Software**: For control learning and experiments
 
 ## Video Demonstration:
 
