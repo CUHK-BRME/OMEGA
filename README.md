@@ -1,4 +1,3 @@
-Here’s the updated README with the video link added:
 
 ```markdown
 # OMEGA: Open-Source Multi-Mode Hopping Platform
@@ -56,8 +55,6 @@ Refer to the `software` folder for running 1D, 2D, and 3D hopping experiments.
 OMEGA is licensed under the [MIT License](LICENSE).
 
 ---
-
-This README covers the key information about OMEGA, including its features, installation steps, a video demonstration, and licensing.
 ```
 
 The video link is now included under the "Video Demonstration" section. Let me know if you need further adjustments!
