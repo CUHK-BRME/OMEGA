@@ -9,6 +9,7 @@
 - **Software**: For control learning and experiments
 
 ## Video Demonstration:
+<video src="https://github.com/user-attachments/assets/fb11da87-3373-4812-8873-817871e5c72c" autoplay loop muted></video>
 
 https://github.com/user-attachments/assets/fb11da87-3373-4812-8873-817871e5c72c
 
