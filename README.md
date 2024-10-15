@@ -1,5 +1,3 @@
-
-```markdown
 # OMEGA: Open-Source Multi-Mode Hopping Platform
 
 **OMEGA** is a versatile, open-source hopping robot platform designed for research and educational purposes. It features a middle-sized robot equipped with an omnidirectional 3-RSR parallel leg, enabling seamless transitions between 1D, 2D, and 3D hopping modes. The platform is built using accessible manufacturing technologies, supporting both tethered and untethered experiments.
@@ -11,8 +9,7 @@
 - **Simulator**: For control learning and experiments
 
 ## Video Demonstration:
-
-https://github.com/user-attachments/assets/fb11da87-3373-4812-8873-817871e5c72c
+Watch the OMEGA platform in action [here](https://github.com/user-attachments/assets/fb11da87-3373-4812-8873-817871e5c72c).
 
 ## Installation:
 
@@ -56,4 +53,3 @@ Refer to the `software` folder for running 1D, 2D, and 3D hopping experiments.
 OMEGA is licensed under the [MIT License](LICENSE).
 
 ---
-```
