@@ -1,1 +1,1 @@
-Matlab scripts in this folder provide a simulation of a SLIP-based hopping robot for studying hopping motion virtually.
+Matlab scripts in this folder provide a simulation of a SLIP-based hopping robot for studying hopping motion virtually. The simulation first compute the ODE functions for the hopping motion, then export a .avi file for user to obtain the performance visually.
